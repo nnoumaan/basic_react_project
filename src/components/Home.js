@@ -1,0 +1,72 @@
+import React from "react";
+import vg from "../assets/2.webp";
+import {
+  AiFillGoogleCircle,
+  AiFillAmazonCircle,
+  AiFillYoutube,
+  AiFillInstagram,
+} from "react-icons/ai";
+
+const Home = () => {
+  return (
+    <>
+      <div className="home" id="home">
+        <main>
+          <h1>TECH! STAR</h1>
+          <p>Soltuions of All problems</p>
+        </main>
+      </div>
+
+      <div className="home2">
+        <img src={vg} alt="graphics" />
+
+        <div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            corporis voluptate, laborum magni cumque veritatis culpa omnis rem
+            dolor ex voluptates aliquam error in cum enim? Doloremque velit
+            expedita aut.
+          </p>
+        </div>
+      </div>
+
+      <div className="home3" id="about">
+        <div>
+          <h1>Who We Are</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur, eligendi. Voluptate ullam repellat fuga laborum
+            nesciunt odio debitis sequi eum blanditiis! Ullam cum placeat, animi
+            veniam repellendus provident facilis. Necessitatibus.
+          </p>
+        </div>
+      </div>
+
+      <div className="home4" id="brands">
+        <div>
+          <h1>Brands</h1>
+          <article>
+            <div style={{ animationDelay: "0.3s" }}>
+              <AiFillAmazonCircle />
+              <p>Amazon</p>
+            </div>
+            <div style={{ animationDelay: "0.5s" }}>
+              <AiFillGoogleCircle />
+              <p>Google</p>
+            </div>
+            <div style={{ animationDelay: "0.7s" }}>
+              <AiFillYoutube />
+              <p>Youtube</p>
+            </div>
+            <div style={{ animationDelay: "1s" }}>
+              <AiFillInstagram />
+              <p>Instagram</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Home;

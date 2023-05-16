@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <nav>
         <h1>TechStar</h1>
+    <h2> GitHub </h2>
         <main>
             <HashLink to={'/#home'}>Home</HashLink>
             <Link to={'/contact'}>Contact</Link>
